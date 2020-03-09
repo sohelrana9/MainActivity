@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".Main7Activity">
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="290dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="4dp"
+        android:background="#660DF005"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Flower item Products List"
+        android:textColor="#F70505"
+        android:textColorHighlight="#F30303"
+        android:textColorHint="#FA0505"
+        android:textColorLink="#F80303"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="408dp"
+        android:layout_height="112dp"
+        android:background="#970E0E"
+        android:text="Vegetal"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="408dp"
+        android:layout_height="112dp"
+        android:background="#970E0E"
+        android:text="Spicy"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="408dp"
+        android:layout_height="112dp"
+        android:background="#970E0E"
+        android:text="Mildly bitter"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="102dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
